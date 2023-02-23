@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #000000;
+}
+
+.navbar-brand {
+  padding-left: 10px;
+  font-family: 'Mynerve', cursive;
+  font-weight: 800;
+}
+
+.navbar-collapse {
+  padding-left: 10px;
+}
+
+.navbar {
+  background-color: #ffffff;
+}
+
+.App-header {
+  background-image: url(../src/images/IMG_1856.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0px 0px 0px 0px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: left;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+  height: calc(80vh - 85px);
+}
+
+.App-header-title {
+  width: 40%;
+  padding: 0px 0px 50px 20px;
+}
+
+.App-header-title h1 {
+  color: #ffffff;
+  font-size: 1.5em;
+  line-height: 1em;
+  font-weight: 600;
+  text-align: left;
+}
+
+.App-profilephoto {
+  border-radius: 100%;
+  margin: 10px 40px 30px 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.App-profile {
+  display: flex;
+  margin-left: 10px;
+  width: 90%;
+  font-size: 1em;
+  padding: 20px 0px 20px 0px;
+  color: #000000;
+}
+
+.handschrift {
+  font-family: 'Mynerve', cursive;
+  font-weight: 800;
+  font-size: 1.5em;
+}
+
+.Footer {
+  height: calc(50vh - 90x);
+  background-color: rgba(246,194,119,255);
+}
+
+.profile-words {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.profile-words li {
+  padding: 40px;
+}
+
+@media only screen and (max-width: 930px) {
+  .App-profile {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .App-profilephoto, .App-profile-input {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+}
